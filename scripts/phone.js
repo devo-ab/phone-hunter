@@ -28,7 +28,7 @@ const displayPhone = (phones, isShowAll) => {
   phones.forEach((phone) => {
     // create div
     const phoneCard = document.createElement("div");
-    phoneCard.classList = `card w-96 bg-base-100 shadow-xl mt-3`;
+    phoneCard.classList = `card w-96 bg-base-100 shadow-xl mt-3 mx-auto`;
 
     // set inner html
     phoneCard.innerHTML = `
